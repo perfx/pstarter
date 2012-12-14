@@ -1,0 +1,156 @@
+/* Helpers
+--------------------------------------- */
+.a-l 				{ text-align: left; }
+.a-c 				{ text-align: center; }
+.a-r 				{ text-align: right; }
+.a-j 				{ text-align:justify; }
+					
+.f-l 				{ float: left; }
+.f-r 				{ float: right; }
+					
+.hide,
+.print-info			{ display: none; }
+.show 				{ display: block; }
+					
+.n-m 				{ margin: 0!important; }
+.n-p 				{ padding: 0!important; }
+.n-b 				{ background: none!important; }
+					
+.cl:after   		{ content: '.'; display: block; height: 0; clear: both; visibility: hidden; }
+.cc					{ clear: both; }
+
+/* General styles
+--------------------------------------- */
+html			  	{ background: #fff; height: 100%; color: #000; font: 12px/16px Arial, Helvetica, sans-serif; }
+body			  	{ min-height: 100%; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; }
+
+/* Stucture
+--------------------------------------- */
+.page			 	{ }
+.section		  	{ }
+.aside				{ }
+.header		   		{ }
+.footer		   		{ }
+
+/* Default content elements
+--------------------------------------- */
+pre,
+code			  	{ font-family: monospace; }
+				  	
+em,			   	
+cite,			 	
+i,					
+address,		  	
+dfn			   		{ font-style: italic; }
+				  	
+b,					
+strong,		   	
+dt,			   	
+caption,		  	
+th,			   	
+dfn			   		{ font-weight: bold; }
+				  	
+blockquote			{ padding: 0 0 0 16px; font-style: italic; }
+				  	
+sup,			  	
+sub			   		{ line-height: 0; }
+abbr,			 	
+acronym		   		{ border-bottom: 1px dotted; }
+del			   		{ text-decoration: line-through; }
+pre			   		{ white-space: pre; }
+				  	
+hr, .hr		   		{ color: #ccc; background-color: #ccc; height: 1px; border: 0; font-size: 1px; }
+				  	
+table			 	{ border-collapse: collapse; width: 100%; }
+caption		   		{  }
+th,			   	
+td					{ border: 1px solid #ccc; padding: 2px 5px; vertical-align: top; }
+th					{ background: #eee; font-weight: normal; }
+td					{ }
+				  	
+.d h1,				
+.d h2,				
+.d h3,				
+.d h4,				
+.d h5,				
+.d p,			 	
+.d ul,				
+.d ol,				
+.d dl,				
+table,				
+blockquote,	   	
+address,		  	
+pre,			  	
+hr,			   	
+.hr			   		{ margin-bottom: 16px; }
+
+a				 	{ }
+a:visited		 	{ }
+a:hover		   		{ }
+a:active		  	{ }
+
+.d a			  	{ }
+.d a:visited	  	{ }
+.d a:hover			{ }
+.d a:active	   		{ }
+
+.d p			  	{ }
+
+.d h1,
+.d h1 a,
+.d h2,
+.d h2 a,
+.d h3,
+.d h3 a,
+.d h4,
+.d h4 a,
+.d h5,
+.d h5 a			 	{ font-weight: bold; font-size: 20px; line-height: 1.3em; }
+
+.d h1,
+.d h1 a			 	{  }
+.d h2,
+.d h2 a			 	{ font-size: 18px; }
+.d h3,
+.d h3 a			 	{ font-size: 16px; }
+.d h4,
+.d h4 a			 	{ font-size: 14px; }
+.d h5,
+.d h5 a			 	{ font-size: 12px; }
+
+.d ul,				
+.d ol			 	{ margin-left: 16px; }
+.d li ul,		 	
+.d li ol			{ margin-bottom: 0; }
+.d ul > li			{ list-style-type: disc; }
+.d ol > li			{ list-style-type: decimal; }
+.d ol ol > li		{ list-style: upper-alpha; }
+.d ol ol ol > li	{ list-style: lower-roman; }
+				  	
+.d dl			 	{  }
+.d dd			 	{ margin-left: 16px; }
+
+/* Icons
+--------------------------------------- */
+.i-new:before,
+.i-new > .i			{ content: ''; width: 16px; height: 16px; display: inline-block; margin: 0 5px -4px 0; vertical-align: baseline; line-height: 1; background: #ccc url(../i/sprites.png) no-repeat 0 0; }
+
+/* Header elements
+--------------------------------------- */
+.branding a			{ text-decoration: none; display: block; }
+.branding a img		{ }
+
+/* Header: Navigation
+--------------------------------------- */
+.nav 				{ }
+.nav li 			{ }
+.nav li a 			{ }
+
+/* Footer elements
+--------------------------------------- */
+
+/* Aside elements
+--------------------------------------- */
+
+/* Section (content)
+--------------------------------------- */

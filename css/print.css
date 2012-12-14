@@ -1,0 +1,10 @@
+html			{ background: #fff; }
+*				{ background: none!important; color: #000!important; }
+
+.print-info		{ display: block; }
+
+/* Hide blocks
+--------------------------------------- */
+.header,
+.aside,
+.footer			{ display: none; }
